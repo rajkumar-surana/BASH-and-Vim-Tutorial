@@ -1,0 +1,96 @@
+"there are 2 modes command mode, insert mode."
+
+"ensure you are in command mode by esc "
+
+"ensure you are in inset mode by typing i"
+
+":w save your file when you are in command mode"
+
+"dd deletes a line in which your cursor is pointing."
+
+"yy copies a line in which you are present. "
+
+"a takes you to inset mode with one curser pos forward."
+
+"P pastes above. you can also paste after delete."
+
+"cw change word on that line "
+
+"p pastes below"
+
+"w word forward there is also W and B. "
+
+"A takes you to end of line in insert mode."
+
+"b word backword"
+
+"e takes you a word forward but put your cursor on last char of that word."
+
+"j downs"
+
+"k ups"
+
+"l right"
+
+"h lefts"
+
+"gg below "
+
+"G top"
+
+"esc out of insert mode"
+
+"c stands for change."
+
+"o give line and let you enter insert mode"
+
+"O give a line above cursor and throw you in insert mode."
+
+"$ takes you to end of line."
+
+"i enter into simple insert mode"
+
+"x delte char"
+
+"u undo"
+
+"ctrl +r redo"
+
+
+"In these 2 below commands you have to press enter to execute."
+
+"0 1 5 go to 0, 1, 5 line forward from current line"
+
+": 0 , 1,5 go to 0,1,5 line forward from start line"
+
+
+"v highlight"
+
+"f+ some char that you want to search in that line"
+
+"t + some char that you want to search , get one pos before that char."
+
+"* at some word let you search all instances of that word."
+
+"} get to end of block"
+
+"{ get to start of block"
+
+"5w 5 word forward, trick that can be used with many commands like 5dd ,5e, 5b etc"
+
+
+"how to exit is real shit"
+
+" enter colon wq to save and exit"
+
+" enter colon q! to exit and not save"
+
+" enter colon q to exit simply."
+
+" but before that exit insert mode by esc."
+
+ 
+"~ swap case"
+
+". redo on next position what you did in earlier command."
+
