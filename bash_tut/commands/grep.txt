@@ -1,0 +1,36 @@
+hello world
+this is raj jain
+and i salute
+you 
+for your 
+ignorance
+raj 
+Raj
+rAj
+rajis
+RAji
+
+
+i tells grep to be insensitive to case
+w tells it to find exact word match
+n tells it to number the line on which it found string
+B lines behind our match
+-B 4 as we pass agrument to -B we write it seperately
+-A 4 , 4 lines after our match
+-C 4 , 4line context around our match
+in grep ./ dont work ./* works for to search it every file.
+
+for searhing all txt file ./*.txt
+but this command will not searh subdiretory.
+
+this require recursive search -r
+grep -winr "raj" {./, .}
+
+what files contain a match grep -wirl "raj" . it list files where match is
+
+if we want to count match in each file use -wirc
+
+grep "...-...-...." names.txt  . any character
+grep  -P "\d{3}-\d{3}-\d{4}" names.txt
+
+.
